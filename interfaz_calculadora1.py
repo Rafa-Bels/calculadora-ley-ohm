@@ -32,7 +32,7 @@ def menor_0(value, mili, micro, nano):
 
     elif value <= 0.000999 and value > 0.000000999:
         operacion = value * 1000000
-        return f"{operacion:.2af} {micro}"
+        return f"{operacion:.2f} {micro}"
     
     elif value <= 0.000000999:
         operacion = value * 1000000000
